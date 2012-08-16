@@ -92,6 +92,10 @@
          :type git
          :url "https://github.com/kazu-yamamoto/ghc-mod.git")
 
+        (:name rvm
+         :type git
+         :url "https://github.com/senny/rvm.el.git")
+
         (:name color-theme-sunburst
          :type git
          :url "https://github.com/roman/Emacs-Sunburst-Color-Theme.git")))
@@ -134,6 +138,7 @@
        flymake-ruby
        ruby-block
        ruby-end
+       rvm
 
        ; Rails mode extensions
        rinari
