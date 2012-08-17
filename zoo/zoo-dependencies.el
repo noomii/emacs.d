@@ -96,9 +96,17 @@
          :type git
          :url "https://github.com/senny/rvm.el.git")
 
+        (:name enotify 
+         :type git
+         :url "https://github.com/laynor/enotify.git")
+
+        (:name alert
+         :type git
+         :url "https://github.com/jwiegley/alert.git")
+
         (:name color-theme-sunburst
          :type git
-         :url "https://github.com/roman/Emacs-Sunburst-Color-Theme.git")))
+         :url "https://github.com/roman/Emacs-Sunburst-Color-Theme.git" "")))
 
 ;;;;;;;;;;;;;;;;;;;;
 ;;- Setting my dependencies
@@ -139,7 +147,6 @@
        ruby-block
        ruby-end
        rvm
-
        ; Rails mode extensions
        rinari
        rspec-mode
@@ -150,6 +157,9 @@
        color-theme-almost-monokai
        color-theme-railscasts
        color-theme-solarized
+       ; enotify
+       enotify
+       alert
        ))
 
 (el-get 'wait zoo-el-get-packages)
