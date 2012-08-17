@@ -5,6 +5,8 @@
                             (ruby-end-mode 1)
                             (set (make-local-variable 'tab-width) 2)))
 (add-hook 'inf-ruby-mode-hook 'ansi-color-for-comint-mode-on)
+(add-hook 'ruby-mode-hook
+                    (lambda () (rvm-activate-corresponding-ruby)))
 
 
 
