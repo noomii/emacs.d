@@ -1,6 +1,5 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/zoo"))
 (require 'zoo-dependencies)
-(require 'zoo-enotify-espectator)
 (require 'zoo-rainbow-delimiters)
 (require 'zoo-paredit)
 (require 'zoo-basics)
@@ -14,6 +13,7 @@
 (require 'zoo-haskell)
 (require 'zoo-enotify)
 (require 'zoo-org-mode)
+(require 'enotify-espectator)
 
 
 ;;; This was installed by package-install.el.
