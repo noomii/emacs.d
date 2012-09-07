@@ -104,6 +104,8 @@
          :type git
          :url "https://github.com/jwiegley/alert.git")
 
+        (:name bm :type http :url "http://cvs.savannah.gnu.org/viewvc/*checkout*/bm/bm/bm.el")
+        
         (:name color-theme-sunburst
          :type git
          :url "https://github.com/roman/Emacs-Sunburst-Color-Theme.git" "")))
@@ -125,6 +127,7 @@
        sunrise-commander
        window-numbering
        winner-mode
+       bm
 
        ; Lispy languages
        rainbow-mode
@@ -133,6 +136,9 @@
        ; Clojure mode extensions
        clojure-mode
        swank-clojure
+
+       ;; Puppet mode extensions
+       puppet-mode
 
        ; Haskell mode extensions
        haskell-mode
@@ -157,7 +163,6 @@
        color-theme-almost-monokai
        color-theme-railscasts
        color-theme-solarized
-       ; enotify
        enotify
        alert
        ))
