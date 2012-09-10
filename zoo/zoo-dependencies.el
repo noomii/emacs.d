@@ -104,7 +104,13 @@
          :type git
          :url "https://github.com/jwiegley/alert.git")
 
-        (:name bm :type http :url "http://cvs.savannah.gnu.org/viewvc/*checkout*/bm/bm/bm.el")
+        (:name bm
+         :type http
+         :url "http://cvs.savannah.gnu.org/viewvc/*checkout*/bm/bm/bm.el")
+        
+        (:name lineker
+         :type http
+         :url "http://www.helsinki.fi/~sjpaavol/programs/lineker.el")        
         
         (:name color-theme-sunburst
          :type git
@@ -128,6 +134,8 @@
        window-numbering
        winner-mode
        bm
+       org-mode
+       lineker
 
        ; Lispy languages
        rainbow-mode
