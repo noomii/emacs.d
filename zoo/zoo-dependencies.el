@@ -111,10 +111,39 @@
         (:name lineker
          :type http
          :url "http://www.helsinki.fi/~sjpaavol/programs/lineker.el")        
-        
+
+        (:name magit-gh-pulls 
+         :type git
+         :url "https://github.com/sigma/magit-gh-pulls.git")        
+
+        (:name logito
+         :type git
+         :url "https://github.com/sigma/logito.git")        
+
+        (:name pcache
+         :type git
+         :url "https://github.com/sigma/pcache.git")        
+
+        (:name gh
+         :type git
+         :url "https://github.com/sigma/gh.el.git")        
+
+        (:name sprintly-org
+         :type git
+         :url "https://github.com/rafael/sprintly-org")        
+
+        (:name auto-complete
+         :type git
+         :url "https://github.com/auto-complete/auto-complete.git")        
+
+        (:name popup-el
+         :type git
+         :url "https://github.com/auto-complete/popup-el.git")        
+
         (:name color-theme-sunburst
          :type git
          :url "https://github.com/roman/Emacs-Sunburst-Color-Theme.git" "")))
+
 
 ;;;;;;;;;;;;;;;;;;;;
 ;;- Setting my dependencies
@@ -171,8 +200,20 @@
        color-theme-almost-monokai
        color-theme-railscasts
        color-theme-solarized
+       ; Github
+       logito
+       pcache
+       gh
+       sprintly-org
+       ;magit-gh-pulls
+
+
+       ; Enotify
        enotify
        alert
+       ; Misc
+       popup-el
+       auto-complete
        ))
 
 (el-get 'wait zoo-el-get-packages)

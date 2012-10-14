@@ -143,5 +143,4 @@
 (define-key f8-map "/" 'org-tags-view)
 (define-key f8-map "." 'org-todo)
 
-
 (provide 'zoo-org)

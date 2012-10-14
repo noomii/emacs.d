@@ -17,6 +17,12 @@
 (require 'zoo-haskell)
 (require 'zoo-enotify)
 (require 'zoo-enotify-espectator)
+(require 'zoo-magit-gh-pulls)
+(require 'zoo-javascript)
+(require 'zoo-sprintly)
+(require 'zoo-ibuffer)
+(require 'zoo-midnight)
+(require 'zoo-autocomplete)
 
 ;;; This was installed by package-install.el.
 ;;; This provides support for the package system and
